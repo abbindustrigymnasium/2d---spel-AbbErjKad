@@ -504,11 +504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4155694850387958, guid: 2ab8321fe1cca3049b56c26509622067, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: -12.1
       objectReference: {fileID: 0}
     - target: {fileID: 4155694850387958, guid: 2ab8321fe1cca3049b56c26509622067, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 19.8
       objectReference: {fileID: 0}
     - target: {fileID: 4155694850387958, guid: 2ab8321fe1cca3049b56c26509622067, type: 3}
       propertyPath: m_LocalPosition.z
@@ -931,6 +931,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 252149287}
   bulletPrefab: {fileID: 3861274855921590024, guid: f31fe7c25c70a78418edb04d8a6fab2d, type: 3}
+--- !u!114 &1930140390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930140382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d032e3a8046b85a49a12c70bef78208b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathEffect: {fileID: 1755349173569476, guid: 3ffcec93c5b5b2541aa6f86a68178033, type: 3}
 --- !u!1 &1944129354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4155694850387958, guid: 2ab8321fe1cca3049b56c26509622067, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4155694850387958, guid: 2ab8321fe1cca3049b56c26509622067, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1413,6 +1427,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2047978661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047978653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d032e3a8046b85a49a12c70bef78208b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathEffect: {fileID: 1755349173569476, guid: 3ffcec93c5b5b2541aa6f86a68178033, type: 3}
 --- !u!1 &2111344837
 GameObject:
   m_ObjectHideFlags: 0
