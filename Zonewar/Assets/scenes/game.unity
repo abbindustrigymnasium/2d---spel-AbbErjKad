@@ -944,6 +944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  player: 1
   deathEffect: {fileID: 1755349173569476, guid: 3ffcec93c5b5b2541aa6f86a68178033, type: 3}
 --- !u!1 &1944129354
 GameObject:
@@ -1440,6 +1441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  player: 2
   deathEffect: {fileID: 1755349173569476, guid: 3ffcec93c5b5b2541aa6f86a68178033, type: 3}
 --- !u!1 &2111344837
 GameObject:
